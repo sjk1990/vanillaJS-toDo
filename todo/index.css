@@ -1,14 +1,15 @@
 body {
-    background-color: rgb(0, 255, 136);
+    background-color: rgb(71, 92, 82);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
 }
 
 .btn {
     cursor: pointer
 }
 
-body {
-    color: white;
-}
 
 .clicked {
     color: blue;

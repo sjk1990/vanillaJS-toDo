@@ -10,7 +10,7 @@ function getWeather(lat, lon) {
         console.log(data);
         const temperature = data.main.temp;
         const place = data.name;
-        weather.innerText = `${temperature} at ${place}`
+        weather.innerText = `Now, ${temperature}℃ at ${place}`
     })
 }
 
